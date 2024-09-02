@@ -41,6 +41,7 @@ WebElement authenticatingMessage;
 
 		
 	public void login(Hashtable<String, String> data) {
+
 		String userName=data.get("User_Name");
 		String password=data.get("Password");
 		String companyID=data.get("Company_ID");

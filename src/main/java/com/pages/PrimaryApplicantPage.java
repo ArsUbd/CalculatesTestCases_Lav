@@ -41,7 +41,9 @@ public class PrimaryApplicantPage extends BasePage {
 	private WebElement loanreason;
 	@FindBy(xpath = "(//ins[@class='iCheck-helper'])[4]")
 	private WebElement authorize;
-	@FindBy(xpath = "(//ins[@class='iCheck-helper'])[6]")
+	
+	//(//ins[@class='iCheck-helper'])[6]
+	@FindBy(xpath = "//input[@id='formly_2_dl4Radio_primaryApplicant.xCustomerReferral_' and @value='true']/following-sibling::ins")
 	private WebElement referral;
 	@FindBy(id = "formly_2_input_primaryApplicant.xReferralName_")
 	private WebElement referralName;
