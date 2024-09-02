@@ -397,24 +397,24 @@ public class PrimaryApplicantPage extends BasePage {
 		click(referral);
 		Thread.sleep(1000);
 		click(referralName);
-		String referralname = data.get("");
+		String referralname = data.get("referralname");
 		Thread.sleep(1000);
 		sendkeys(referralName, referralname);
 		Thread.sleep(1000);
-		String firstname = data.get("");
+		String firstname = data.get("firstname");
 		sendkeys(firstName, firstname);
 		Thread.sleep(1000);
-		String lastname = data.get("");
+		String lastname = data.get("lastname");
 		sendkeys(lastName, lastname);
-		String dateofbirth = data.get("");
+		String dateofbirth = data.get("dateofbirth");
 		sendkeys(dateofBirth, dateofbirth);
-		String homephone = data.get("");
+		String homephone = data.get("homephone");
 		sendkeys(homePhone, homephone);
 		Thread.sleep(1000);
-		String mobilephone = data.get("");
+		String mobilephone = data.get("mobilephone");
 		sendkeys(mobilePhone, mobilephone);
 		Thread.sleep(1000);
-		String Email = data.get("");
+		String Email = data.get("Email");
 		sendkeys(email, Email);
 		click(employee);
 
@@ -424,16 +424,16 @@ public class PrimaryApplicantPage extends BasePage {
 		Thread.sleep(4000);
 		click(addAddress);
 		Thread.sleep(1000);
-		String addressline = data.get("");
+		String addressline = data.get("AddressLine1");
 		sendkeys(addressLine, addressline);
 		// sendKeys(addressLine2,addressline2);
-		String ZipCode = data.get("");
+		String ZipCode = data.get("ZipCode1");
 		sendkeys(zipcode, ZipCode);
 		Thread.sleep(1000);
-		String yearsatresidence = data.get("");
+		String yearsatresidence = data.get("YearsAtResidense1");
 		sendkeys(YearsAtResidence, yearsatresidence);
 		Thread.sleep(1000);
-		String monthsatresidence = data.get("");
+		String monthsatresidence = data.get("MonthsAtResidence1");
 		sendkeys(MonthsAtResidence, monthsatresidence);
 		Thread.sleep(1000);
 		click(ownership);
@@ -442,7 +442,7 @@ public class PrimaryApplicantPage extends BasePage {
 		Thread.sleep(1000);
 		click(monthlyAmount);
 		Thread.sleep(1000);
-		String monthlyamount = data.get("");
+		String monthlyamount = data.get("MonthlyAmount");
 		sendkeys(monthlyAmount, monthlyamount);
 	}
 
@@ -458,28 +458,28 @@ public class PrimaryApplicantPage extends BasePage {
 		click(income);
 		Thread.sleep(1000);
 		click(incometype);
-		String Profession = data.get("");
+		String Profession = data.get("Occupation/Profession1");
 		sendkeys(occupation, Profession);
-		String incomesource = data.get("");
+		String incomesource = data.get("EmployerName1");
 		sendkeys(incomesrc, incomesource);
-		String supervisorname = data.get("");
+		String supervisorname = data.get("Supervisor/Department1  ");
 		sendkeys(supervisor, supervisorname);
-		String employmentphone = data.get("");
+		String employmentphone = data.get("EmployerPhone1");
 		sendkeys(employerPhone, employmentphone);
-		String EmployerAddress = data.get("");
+		String EmployerAddress = data.get("EmployerAddressLine1_1");
 		sendkeys(employmentAddress, EmployerAddress);
-		String employmentzipcode = data.get("");
+		String employmentzipcode = data.get("EmployerZipCode1");
 		sendkeys(employerZipCode, employmentzipcode);
-		String employercity = data.get("");
+		String employercity = data.get("EmployerCity1");
 		sendkeys(employerCity, employercity);
 
 		Thread.sleep(1000);
-		String years = data.get("");
+		String years = data.get("Years1");
 		sendkeys(Years, years);
-		String months = data.get("");
+		String months = data.get("Months1");
 		sendkeys(Months, months);
 		Thread.sleep(1000);
-		String PaydayFrequency = data.get("");
+		String PaydayFrequency = data.get("PayFrequency1");
 		sendkeys(paydayfrequency, PaydayFrequency);
 		Thread.sleep(1000);
 		click(hoursincome);
@@ -489,9 +489,9 @@ public class PrimaryApplicantPage extends BasePage {
 		click(salary);
 		click(payday);
 		click(week);
-		String paydaygrossincome = data.get("");
+		String paydaygrossincome = data.get("MonthlyGrossIncome1");
 		sendkeys(Paydaygross, paydaygrossincome);
-		String paydaynetincome = data.get("");
+		String paydaynetincome = data.get("MonthlyNetIncome1");
 		sendkeys(Paydaynet, paydaynetincome);
 
 	}
@@ -500,16 +500,16 @@ public class PrimaryApplicantPage extends BasePage {
 		Thread.sleep(3000);
 
 		click(addReference);
-		String referencename = data.get("");
+		String referencename = data.get("referencename");
 		sendkeys(addReferenceName, referencename);
-		String referencephone = data.get("");
+		String referencephone = data.get("referencephone");
 		sendkeys(addReferencePhone, referencephone);
 
 		Thread.sleep(3000);
 		click(addReferenceOne);
-		String addreferencenameone = data.get("");
+		String addreferencenameone = data.get("addreferencenameone");
 		sendkeys(addReferenceNameOne, addreferencenameone);
-		String addreferencephoneone = data.get("");
+		String addreferencephoneone = data.get("addreferencephoneone");
 		sendkeys(addReferencePhoneOne, addreferencephoneone);
 	}
 
