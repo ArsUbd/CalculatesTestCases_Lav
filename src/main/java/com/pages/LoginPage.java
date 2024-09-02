@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.browser.Driver;
+import com.browser.DriverManager;
 import com.listener.ListenerClass;
 import com.reports.ExtentReport;
 import com.utils.ReadPropertyFile;
@@ -13,24 +14,30 @@ import com.utils.TestUtils;
 
 
 public class LoginPage extends BasePage{
+	public LoginPage(Hashtable<String, String> data) {
+		PageFactory.initElements(DriverManager.getDriver(), this);
+	}
 	
 
 @FindBy(id="companyid")
-private WebElement cmpnyid;
+WebElement cmpnyid;
+public WebElement getCmpnyID() {
+	return cmpnyid;
+}
 
 @FindBy(id="username")
-private WebElement txtuserName;
+WebElement txtuserName;
 
 
 @FindBy(id="password")
-private WebElement txtpassword;
+WebElement txtpassword;
 
 
 @FindBy(xpath="//strong[text()='Log In']")
-private WebElement login;
+WebElement login;
 
 @FindBy(xpath="//div[text()='Authenticating...']") 
-private WebElement authenticatingMessage;
+WebElement authenticatingMessage;
 
 		
 	public void login(Hashtable<String, String> data) {

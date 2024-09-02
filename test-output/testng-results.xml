@@ -2,82 +2,46 @@
 <testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-30T13:49:35Z" name="Suite" finished-at="2024-08-30T13:59:43Z" duration-ms="608847">
+  <suite started-at="2024-09-02T11:24:16Z" name="Suite" finished-at="2024-09-02T11:26:16Z" duration-ms="119418">
     <groups>
     </groups>
-    <test started-at="2024-08-30T13:49:35Z" name="Test" finished-at="2024-08-30T13:59:43Z" duration-ms="608847">
-      <class name="com.testcases.BaseTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.testcases.BaseTest@66ac5762]" started-at="2024-08-30T13:49:34Z" name="beforeSuite" finished-at="2024-08-30T13:49:35Z" duration-ms="263" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.testcases.BaseTest@66ac5762]" started-at="2024-08-30T13:59:43Z" name="afterSuite" finished-at="2024-08-30T13:59:53Z" duration-ms="9058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.testcases.BaseTest -->
-      <class name="com.testcases.HomePageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.HomePageTests@797cf65c]" started-at="2024-08-30T13:49:57Z" name="setUp" finished-at="2024-08-30T13:50:34Z" duration-ms="37022" status="PASS">
+    <test started-at="2024-09-02T11:24:16Z" name="Test" finished-at="2024-09-02T11:26:16Z" duration-ms="119418">
+      <class name="com.testcases.Test_Scenarios">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.Test_Scenarios@1e8ce150]" started-at="2024-09-02T11:24:17Z" name="setUp" finished-at="2024-09-02T11:24:41Z" duration-ms="24354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test3(java.util.Hashtable)[pri:1, instance:com.testcases.HomePageTests@797cf65c]" started-at="2024-08-30T13:50:34Z" name="test3" description="Test Case 3" finished-at="2024-08-30T13:59:38Z" duration-ms="543343" status="FAIL">
+        <test-method signature="Scenario_1(java.util.Hashtable)[pri:1, instance:com.testcases.Test_Scenarios@1e8ce150]" started-at="2024-09-02T11:24:41Z" name="Scenario_1" description="Scenario 1 Description" finished-at="2024-09-02T11:26:11Z" duration-ms="90400" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{homephone=7065516166, Password=Zk485#6VUPrabab, Company_ID=1stf203, MiddleName=A, primaryidissuedate=05052022, ages=3, preferred=JAN, lastname=RAMIREZ, referralname=GHHK, primaryidexpirydate=06152028, ID=101, dateofbirth=01011955, ssn=666824719, dependents=1, mobilephone=9125551212, User_Name=Lsirimalla, TestCaseName=test3, valueforsearch=appium, firstname=ELIZABETH, Email=JAN@NONE.COM, initialamount=1000}]]>
+                <![CDATA[{MotorizedCollateralType=Agricultural Equipment, AddressLine3=#House 66, AddressLine2=546 Highway 9 S, AddressLine1=3559 MYFTAOBDEE CT, LastName=TTDWA, DateOfBirth= 9/6/1976, SecondaryOwnerLicenseNumberTwo=9945873476, DistrictNumberOne=600018, SecondaryIDExpDate=  02/3/2023, SecondaryIDType=Social Security Card, CylinderOne=2, LicensePlateNumber=6788899954, referencecity=, addreferencephoneone=6765545456, stateselectionone=, LicensePlateNumberOne=9894399843, professionnonemployment=FixedDeposit, ages=3, referencerelationship=Cousin, Cylinder=2, referencename=Daniel, ExistingTitleNumber=1234567, Ownership=Family Home, NewUsed=Used, homephone=7065516166, paydaynetincomenonemployment=326, SecondaryIDNumber=666662018, InsuranceCompanyPhone=9900223388, PrimaryIDNumber= 123456789, AddressType3=Previous, AddressType2=Mailing, AddressType1=Physical, MSRPRetail=6900, FirstName=REGINA, stateselection=, Region=, PrimaryOwnerLicenseNumberTwo=34456345289, PrimaryIDIssueDate= 02/3/2017, Paydays=Monday, EmptyWeightTwo=10000, Make_Manufacturer=Make 1, Type=, paydaygrossincomenonemployment=355, referencestateone=, employercitynonemployment=, referencezipcode=30047, State3=Georgia, State2=Georgia, State1=GA, SecondaryOwnerLicenseNumberOne=4585994923, 1FFCEmployee=, PrimaryOwner=Primary Applicant, incomesourcenonemployment=Intrest, EmptyWeight=10000, MobilePhone=7065551212, SerialNumber=87782A, yearsnonemployment=1, PreferredName=REG, Make=AMERICAN CLASSIC MOTORS, LoanValue=, VinSerialIDHullID=1FAHP35N98W144276, addreferencenameone=Ferrer, referencephone=9654378968, YearsAtResidense1=3, MSRP_Retail=350, Dependents=0, MonthlyAmount=300, YearBuiltOne=2014, MiddleName=A, SecondaryIDIssueDate= 02/3/2017, ValueSource=J.D. Power Guides Motorcycles, firstname=ELIZABETH, ColorOne=yellow, preferred=JAN, PrimaryOwnerLicenseNumberOne=3453435444, ZipCode3=30052, ZipCode2=30224, ZipCode1=30052, paydays=Monday, primaryidexpirydate=06152028, EmptyWeightOne=10000, VehicleType=, streetaddressone=101 EKBJ AVE, YearsAtResidence2=4, lastname=RAMIREZ, Bankrupt=, InsuranceCompanyAddress=Georgia, referencecityone=, InsuranceCompany=GEICO, employmentphonenonemployment=5678999999, DivorceSuit=, DateOfIssue=05232023, dependents=1, PrimaryOwnerLicenseNumber=4344499993, employerzipcodenonemployment=30108, PrimaryIDType=US Driver's License, ChargeELT=, DepAge=, MotorClubCheck=COLUMN([1]Address!A1), addressnonemployment=674 State Bridge Ave, initialamount=1000, dateofbirth=01011955, streetaddress=4521 PYDBTKH WAY, InsuranceAgent=Jack, Year=2020, USCitizen=Yes, InitialAmount=5000, Suffix=Fifth, Mileage=10000, HomePhone=7065551212, primaryidissuedate=05052022, referralname=GHHK, LienType=Listed Only, LicensePlateNumberTwo=9854684389, PrimaryDocType=Primary, referencestate=, PrimaryIDCountry=USA, mobilephone=9125551212, SSN=666662018, CollateralType=Household Personal Goods, YearBuilt=2008, MonthsAtResidence2=3, Company_ID=1stf203, MonthsAtResidence1=2, DistrictNumber=22412, SecondaryDocType=Secondary, monthsnonemployment=9, InsuranceCoverage=Outside Insurance, ssn=666824719, AddressMatchIdentification=Yes, NoEmail=, City3=LOGANVILLE, DateOfexpiry=08192020, City2=LOGANVILLE, Password=Zk485#6VUPrabab, City1=LOGANVILLE, Description=TV for Personal Room, Color=Red, ReasonForLoan=Assist Family Member, supervisornamenonemployment=Bank, TestCaseName=Scenario_1, SecondaryIDCountry=USA, ID=101, ItemType=3rd Television, County3=Gwinnett, PrimaryIDState=Georgia, County2=Gwinnett, County1=Gwinnett, AddressLine2_3=101 Windemere Pkwy, AddressLine2_2=101 Windemere Pkwy, BodyStyle=Body Style1, AddressLine2_1=101 Windemere Pkwy, SecondaryOwnerLicenseNumber=5886869945, ExistingTitleNumberOne=7654321, SecondaryIDState=Georgia, PrimaryIDExpDate=  02/3/2027, Model=SKINNY RIGID RT 88, ChargeSearchFee  
+=, relationshipone=Brother, InsurancePolicy=Auto, MemberCheck=, User_Name=Lsirimalla, InterationType=Email, Email=JAN@NONE.COM, =}]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=128.0.6613.86)
-  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (90462233a504fe9737b1fa12c965e264)] -> xpath: (//ins[@class='iCheck-helper'])[4]] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-O84P5ERU', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\ARSLAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64211}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 128.0.6613.86, webStorageEnabled: true}
-Session ID: 211d9c0d54874d33865915db6b5292b6]]>
+System info: host: 'LAPTOP-O84P5ERU', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\ARSLAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63093}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 128.0.6613.86, webStorageEnabled: true}
+Session ID: 90462233a504fe9737b1fa12c965e264]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=128.0.6613.86)
-  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (90462233a504fe9737b1fa12c965e264)] -> xpath: (//ins[@class='iCheck-helper'])[4]] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-O84P5ERU', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\ARSLAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64211}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 128.0.6613.86, webStorageEnabled: true}
-Session ID: 211d9c0d54874d33865915db6b5292b6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at jdk.proxy2/jdk.proxy2.$Proxy14.getScreenshotAs(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-at com.utils.TestUtils.pullScreenshotPath(TestUtils.java:234)
-at com.pages.BasePage.sendkeys(BasePage.java:52)
-at com.pages.TC2_PrimaryApplicantPage.addApplicantDetails(TC2_PrimaryApplicantPage.java:349)
-at com.pages.HomePage.login(HomePage.java:114)
-at com.testcases.HomePageTests.test3(HomePageTests.java:26)
+System info: host: 'LAPTOP-O84P5ERU', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\ARSLAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63093}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 128.0.6613.86, webStorageEnabled: true}
+Session ID: 90462233a504fe9737b1fa12c965e264
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.pages.BasePage.explicitlyWait(BasePage.java:29)
+at com.pages.BasePage.click(BasePage.java:34)
+at com.pages.PrimaryApplicantPage.details(PrimaryApplicantPage.java:396)
+at com.testcases.Test_Scenarios.Scenario_1(Test_Scenarios.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -98,12 +62,22 @@ at java.base/java.lang.Thread.run(Thread.java:831)
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="wrapUp()[pri:0, instance:com.testcases.HomePageTests@797cf65c]" started-at="2024-08-30T13:59:39Z" name="wrapUp" finished-at="2024-08-30T13:59:43Z" duration-ms="4431" status="PASS">
+        </test-method> <!-- Scenario_1 -->
+        <test-method is-config="true" signature="wrapUp()[pri:0, instance:com.testcases.Test_Scenarios@1e8ce150]" started-at="2024-09-02T11:26:11Z" name="wrapUp" finished-at="2024-09-02T11:26:16Z" duration-ms="4418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrapUp -->
-      </class> <!-- com.testcases.HomePageTests -->
+      </class> <!-- com.testcases.Test_Scenarios -->
+      <class name="com.testcases.BaseTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.testcases.BaseTest@5d9b7a8a]" started-at="2024-09-02T11:24:16Z" name="beforeSuite" finished-at="2024-09-02T11:24:16Z" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.testcases.BaseTest@5d9b7a8a]" started-at="2024-09-02T11:26:16Z" name="afterSuite" finished-at="2024-09-02T11:26:20Z" duration-ms="4565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testcases.BaseTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

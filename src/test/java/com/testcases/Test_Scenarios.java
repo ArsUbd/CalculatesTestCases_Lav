@@ -15,12 +15,13 @@ import com.pages.PrimaryApplicantPage;
 
 public class Test_Scenarios extends BaseTest{
 	
-	LoginPage loginpage = new LoginPage();
+	
 	HomePage homepage  =new HomePage();;
 	
 
 	@Test
 	public void Scenario_1(Hashtable<String,String> data) throws InterruptedException, IOException {
+		LoginPage loginpage = new LoginPage(data);
 		loginpage.login(data);
 		PrimaryApplicantPage applicationPage=new PrimaryApplicantPage(data);
         applicationPage.newApplicant(data);

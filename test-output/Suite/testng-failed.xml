@@ -7,15 +7,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.testcases.HomePageTests">
+      <class name="com.testcases.Test_Scenarios">
         <methods>
-          <include name="test3" invocation-numbers="0"/>
           <include name="wrapUp"/>
+          <include name="Scenario_1" invocation-numbers="0"/>
           <include name="beforeSuite"/>
           <include name="setUp"/>
           <include name="afterSuite"/>
         </methods>
-      </class> <!-- com.testcases.HomePageTests -->
+      </class> <!-- com.testcases.Test_Scenarios -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

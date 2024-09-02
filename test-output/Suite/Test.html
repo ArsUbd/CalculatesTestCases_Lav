@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Aug 31 14:27:34 IST 2024</td>
+<td>Started on:</td><td>Mon Sep 02 16:54:16 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15555 ms)</td>
+<tr><td>Total time:</td><td>119 seconds (119418 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,63 +67,65 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.testcases.Test_Scenarios.Scenario_1()'><b>Scenario_1</b><br>Test class: com.testcases.Test_Scenarios<br>Test method: Scenario 1 Description</td>
-<td><div><pre>java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()&quot; because the return value of &quot;org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)&quot; is null
-Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()&quot; because the return value of &quot;org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)&quot; is null
-	at com.utils.TestUtils.getLastRowNum(TestUtils.java:150)
-	at com.utils.TestUtils.getNumberofIterationsForATestCase(TestUtils.java:383)
-	at com.utils.TestUtils.getDataForDataprovider(TestUtils.java:354)
-	at com.utils.TestUtils.supplyDataForIterations(TestUtils.java:336)
-	... 22 more
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace694069884", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace694069884'><pre>java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()&quot; because the return value of &quot;org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)&quot; is null
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()&quot; because the return value of &quot;org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)&quot; is null
-	at com.utils.TestUtils.getLastRowNum(TestUtils.java:150)
-	at com.utils.TestUtils.getNumberofIterationsForATestCase(TestUtils.java:383)
-	at com.utils.TestUtils.getDataForDataprovider(TestUtils.java:354)
-	at com.utils.TestUtils.supplyDataForIterations(TestUtils.java:336)
+<td title='com.testcases.Test_Scenarios.Scenario_1()'><b>Scenario_1</b><br>Test class: com.testcases.Test_Scenarios<br>Test method: Scenario 1 Description<br>Parameters: {MotorizedCollateralType=Agricultural Equipment, AddressLine3=#House 66, AddressLine2=546 Highway 9 S, AddressLine1=3559 MYFTAOBDEE CT, LastName=TTDWA, DateOfBirth= 9/6/1976, SecondaryOwnerLicenseNumberTwo=9945873476, DistrictNumberOne=600018, SecondaryIDExpDate=  02/3/2023, SecondaryIDType=Social Security Card, CylinderOne=2, LicensePlateNumber=6788899954, referencecity=, addreferencephoneone=6765545456, stateselectionone=, LicensePlateNumberOne=9894399843, professionnonemployment=FixedDeposit, ages=3, referencerelationship=Cousin, Cylinder=2, referencename=Daniel, ExistingTitleNumber=1234567, Ownership=Family Home, NewUsed=Used, homephone=7065516166, paydaynetincomenonemployment=326, SecondaryIDNumber=666662018, InsuranceCompanyPhone=9900223388, PrimaryIDNumber= 123456789, AddressType3=Previous, AddressType2=Mailing, AddressType1=Physical, MSRPRetail=6900, FirstName=REGINA, stateselection=, Region=, PrimaryOwnerLicenseNumberTwo=34456345289, PrimaryIDIssueDate= 02/3/2017, Paydays=Monday, EmptyWeightTwo=10000, Make_Manufacturer=Make 1, Type=, paydaygrossincomenonemployment=355, referencestateone=, employercitynonemployment=, referencezipcode=30047, State3=Georgia, State2=Georgia, State1=GA, SecondaryOwnerLicenseNumberOne=4585994923, 1FFCEmployee=, PrimaryOwner=Primary Applicant, incomesourcenonemployment=Intrest, EmptyWeight=10000, MobilePhone=7065551212, SerialNumber=87782A, yearsnonemployment=1, PreferredName=REG, Make=AMERICAN CLASSIC MOTORS, LoanValue=, VinSerialIDHullID=1FAHP35N98W144276, addreferencenameone=Ferrer, referencephone=9654378968, YearsAtResidense1=3, MSRP_Retail=350, Dependents=0, MonthlyAmount=300, YearBuiltOne=2014, MiddleName=A, SecondaryIDIssueDate= 02/3/2017, ValueSource=J.D. Power Guides Motorcycles, firstname=ELIZABETH, ColorOne=yellow, preferred=JAN, PrimaryOwnerLicenseNumberOne=3453435444, ZipCode3=30052, ZipCode2=30224, ZipCode1=30052, paydays=Monday, primaryidexpirydate=06152028, EmptyWeightOne=10000, VehicleType=, streetaddressone=101 EKBJ AVE, YearsAtResidence2=4, lastname=RAMIREZ, Bankrupt=, InsuranceCompanyAddress=Georgia, referencecityone=, InsuranceCompany=GEICO, employmentphonenonemployment=5678999999, DivorceSuit=, DateOfIssue=05232023, dependents=1, PrimaryOwnerLicenseNumber=4344499993, employerzipcodenonemployment=30108, PrimaryIDType=US Driver's License, ChargeELT=, DepAge=, MotorClubCheck=COLUMN([1]Address!A1), addressnonemployment=674 State Bridge Ave, initialamount=1000, dateofbirth=01011955, streetaddress=4521 PYDBTKH WAY, InsuranceAgent=Jack, Year=2020, USCitizen=Yes, InitialAmount=5000, Suffix=Fifth, Mileage=10000, HomePhone=7065551212, primaryidissuedate=05052022, referralname=GHHK, LienType=Listed Only, LicensePlateNumberTwo=9854684389, PrimaryDocType=Primary, referencestate=, PrimaryIDCountry=USA, mobilephone=9125551212, SSN=666662018, CollateralType=Household Personal Goods, YearBuilt=2008, MonthsAtResidence2=3, Company_ID=1stf203, MonthsAtResidence1=2, DistrictNumber=22412, SecondaryDocType=Secondary, monthsnonemployment=9, InsuranceCoverage=Outside Insurance, ssn=666824719, AddressMatchIdentification=Yes, NoEmail=, City3=LOGANVILLE, DateOfexpiry=08192020, City2=LOGANVILLE, Password=Zk485#6VUPrabab, City1=LOGANVILLE, Description=TV for Personal Room, Color=Red, ReasonForLoan=Assist Family Member, supervisornamenonemployment=Bank, TestCaseName=Scenario_1, SecondaryIDCountry=USA, ID=101, ItemType=3rd Television, County3=Gwinnett, PrimaryIDState=Georgia, County2=Gwinnett, County1=Gwinnett, AddressLine2_3=101 Windemere Pkwy, AddressLine2_2=101 Windemere Pkwy, BodyStyle=Body Style1, AddressLine2_1=101 Windemere Pkwy, SecondaryOwnerLicenseNumber=5886869945, ExistingTitleNumberOne=7654321, SecondaryIDState=Georgia, PrimaryIDExpDate=  02/3/2027, Model=SKINNY RIGID RT 88, ChargeSearchFee  
+=, relationshipone=Brother, InsurancePolicy=Auto, MemberCheck=, User_Name=Lsirimalla, InterationType=Email, Email=JAN@NONE.COM, =}</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (90462233a504fe9737b1fa12c965e264)] -&gt; xpath: (//ins[@class=&apos;iCheck-helper&apos;])[4]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-O84P5ERU&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\ARSLAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63093}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 128.0.6613.86, webStorageEnabled: true}
+Session ID: 90462233a504fe9737b1fa12c965e264
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.pages.BasePage.explicitlyWait(BasePage.java:29)
+	at com.pages.BasePage.click(BasePage.java:34)
+	at com.pages.PrimaryApplicantPage.details(PrimaryApplicantPage.java:396)
+	at com.testcases.Test_Scenarios.Scenario_1(Test_Scenarios.java:30)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1738021067", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1738021067'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (90462233a504fe9737b1fa12c965e264)] -&gt; xpath: (//ins[@class=&apos;iCheck-helper&apos;])[4]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-O84P5ERU&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\ARSLAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63093}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 128.0.6613.86, webStorageEnabled: true}
+Session ID: 90462233a504fe9737b1fa12c965e264
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.pages.BasePage.explicitlyWait(BasePage.java:29)
+	at com.pages.BasePage.click(BasePage.java:34)
+	at com.pages.PrimaryApplicantPage.details(PrimaryApplicantPage.java:396)
+	at com.testcases.Test_Scenarios.Scenario_1(Test_Scenarios.java:30)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	... 22 more
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
 </pre></div></td>
-<td>0</td>
-<td>com.testcases.Test_Scenarios@176b3f44</td></tr>
+<td>90</td>
+<td>com.testcases.Test_Scenarios@1e8ce150</td></tr>
 </table><p>
 </body>
 </html>
